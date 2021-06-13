@@ -4,25 +4,22 @@ mat-toolbar{background-color:#430C05}
 
 a { color: white;text-decoration: none; }
 
-.tituloapp{ font-family:roboto;  }
-.tituloapp2{  font-family:roboto;  }
-
-.icon1{font-size:2.5rem; margin-bottom: 20px; 
-  position: relative;right:12px;
-
+.icon1{font-size:2.3rem; margin-bottom: 20px; 
+      position: relative;right:12px;
+      
       -webkit-animation: skew 3s infinite;
       animation: skew 3s infinite;
--webkit-transform: skew(20deg);
+      -webkit-transform: skew(20deg);
       transform: skew(20deg);
--webkit-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
       animation-direction: alternate;
     }
      
-.material-icons{
-      color: whitesmoke;margin-right: 3px;
-    }
+.material-icons{color: whitesmoke;margin-right: 3px;}
+
 .rojitosolo{color:red;}
 
+.titulo{font-family: 'Indie Flower', cursive; }
 @keyframes skew {
   0% {
     -webkit-transform: skewX(20deg);

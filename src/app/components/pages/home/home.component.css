@@ -49,30 +49,23 @@ padding:10px 2px 0px 2px;
   
 }
  
-  .lado1a {
+.lado1a {
     font-size: 3rem; 
     color:whitesmoke; 
     font-weight: 600;
     font-family: 'Indie Flower', cursive;
    position: relative; top:15px;
-  } 
+} 
 
-  .wrap2{
+.wrap2{
     display:block; 
     color: whitesmoke;background-color: #8A1E86;
     font-family: 'Indie Flower', cursive; 
-  }
-.desc1{ 
-     line-height:20px;position: relative; top:10px;
 }
-.desc3{
-    font-size: 0.7rem;
-    line-height: 0.8rem;
-    font-style: italic;  
-}
-#email_input{
-  margin-left: 4px;
-}
+.desc1{ line-height:20px;position: relative; top:10px;}
+.desc3{font-size: 0.7rem;line-height: 0.8rem;font-style: italic;}
+
+#email_input{margin-left: 4px;}
 /*---------Destacados----------------*/
 
 
@@ -110,30 +103,23 @@ padding:10px 2px 0px 2px;
    }
  
 @media screen and (max-width: 819px) {
-  
-  .wrapper .item{
-      min-width: 150px;height: 150px;
-     margin-right:5px;
-     }
+.wrapper .item{min-width: 150px;height: 150px;margin-right:5px;}
 
-  .lado1a { font-size: 2.3rem;}
-  .lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
+.lado1a { font-size: 2.3rem;}
+.lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
   color:whitesmoke; font-style: italic;}
   
 .neon {font-size:1.6rem;}
  
 .desc1{ font-size: 1rem;line-height: 1rem; }
-.desc3{
-  font-size: 0.6rem;font-style: italic; padding: 0  10px;
-}
+.desc3{font-size: 0.6rem;font-style: italic; padding: 0  10px;}
+
 .btnmio {width: 120px;}
 
 .wrapdestacado{justify-content: space-between;}
-.wrappromos{
-  margin-bottom: 20px;
-   
-  }
-  }
+.wrappromos{margin-bottom: 20px;}
+
+}
 
 
 
