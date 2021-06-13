@@ -1,0 +1,91 @@
+<div class="container"> 
+    <app-slider></app-slider>
+    <app-message></app-message>
+    <app-products></app-products>
+</div>
+     
+<div class="container">
+
+    <!-------------primer---------------->
+    <!--------------primer---------------->
+    <div class="wrapdestacado">
+                <div class="neon">KIOSKOS</div>
+    </div>
+        
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+                <div  *ngFor="let post of posts">
+                        <div class="item">
+                        
+                        <img [src]="post.imagePost" >
+                        <h2 class="precio"> <a [routerLink]="['/posts', post.id]">
+                            ${{post.precio}} 
+                        </a></h2>
+                    </div>
+            </div>
+        
+    </div> 
+
+    <div class="wrapbtn">
+        
+            <div class="btnmio"><a [routerLink]="['/vermas']">Ver todos</a> </div>
+        
+    </div>
+
+    <!--------------Fin primer---------------->
+    <!--------------Fin primer---------------->
+
+         
+        
+    <!-------------SEGUNDO---------------->
+    <!--------------SEGUNDO---------------->      
+    <div class="wrapdestacado mt-3"><div class="neon">ALMACENES</div></div>
+    <!------------FIN-SEGUNDO---------------->
+        
+
+    <!-------------TERCERO---------------->
+    <!--------------TERCERO---------------->   
+    <div class="wrapdestacado mt-3"><div class="neon">ROPA</div></div>
+    
+    <!-------------CUARTO---------------->
+    <!--------------CUARTO---------------->
+    <div class="wrapdestacado mt-3"><div class="neon">COMIDAS</div></div>
+    
+    <!-------------QUINTO---------------->
+    <!--------------QUINTO---------------->
+    <div class="wrapdestacado mt-3"><div class="neon">CELULARES / PC</div></div>
+    
+     <!--
+         <div class="wrappromos ">
+        
+                <div class="wrap1 ">
+                    
+                    <p  class="lado1a">10%</p> 
+                        
+                    
+                    <div class="lado2">
+                        compra mayor a $800
+                    </div>
+                </div>
+        
+                <div class="wrap2">
+                        <h2  class="desc1">Ingresa tu email y disfruta!</h2> 
+                    
+                        <label for="email_input">email: </label>
+                        <input type="email" name="email" id="email_input" placeholder="Tu correo">
+                    
+                    <div class="desc3">Para aprovechar esta oferta debe ingresar su correo. EXCLUSIVO solo para clientes</div>
+                </div>
+        
+    </div>
+     -->   
+    
+   
+</div>
+    
+<ng-template #loading>
+        <div class="container-spinner">
+          <mat-spinner></mat-spinner>
+        </div>
+</ng-template>
+    

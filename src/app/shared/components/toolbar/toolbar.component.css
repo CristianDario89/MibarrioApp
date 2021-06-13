@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+mat-toolbar{background-color:#451e89}
+
+a { color: white;text-decoration: none; }
+
+.tituloapp{ font-family:roboto;  }
+.tituloapp2{  font-family:roboto;  }
+
+.icon1{font-size:2.5rem; margin-bottom: 20px; 
+  position: relative;right:12px;
+
+      -webkit-animation: skew 3s infinite;
+      animation: skew 3s infinite;
+-webkit-transform: skew(20deg);
+      transform: skew(20deg);
+-webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+     
+.material-icons{
+      color: orange;margin-right: 3px;
+    }
+.rojitosolo{color:red;}
+
+@keyframes skew {
+  0% {
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+  }
+  100% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+  }
+}

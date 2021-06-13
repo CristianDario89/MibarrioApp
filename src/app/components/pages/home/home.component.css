@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+/* ----Products-----*/
+   .container{background-color: #ddd;}
+  .wrapper{
+    max-height: 250px; background-color: white;
+    
+    display: flex;
+    overflow-x: auto;border:4px solid #451e89;
+  }
+  .wrapper::-webkit-scrollbar{
+   width: 0;
+  }
+  .wrapper .item{
+   min-width: 160px;height: 160px;
+   text-align: center;
+  
+   margin-right: 9px;
+  }
+
+  .item{
+    display: grid;grid-template-rows:80% 20%;}
+
+  .item img{width: 150px; height: 100%;}
+
+
+  /*-----Destacados-----*/
+  .wrapdestacado{display: flex;justify-content: space-around;
+  
+background-color: #451e89;
+}
+
+  .titudestacado{font-size: 1.2rem; 
+  padding-top: 9px;}
+/*-------------Promos------*/
+.wrappromos{
+display: flex; 
+ text-align: center;
+ margin-top: 10px;
+}
+.wrap1{
+color: whitesmoke; background-color: #8A1E3F; 
+padding:10px 2px 0px 2px; 
+  
+}
+ 
+  .lado1a {
+    font-size: 3rem; 
+    color:whitesmoke; 
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+   position: relative; top:15px;
+  } 
+
+  .wrap2{
+    display:block; 
+    color: whitesmoke;background-color: #8A1E86;
+    font-family: 'Indie Flower', cursive; 
+  }
+.desc1{ 
+     line-height:20px;position: relative; top:10px;
+}
+.desc3{
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    font-style: italic;  
+}
+#email_input{
+  margin-left: 4px;
+}
+/*---------Destacados----------------*/
+
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 2rem;
+  line-height: 2rem;padding: 15px;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+/*------------------------*/
+ 
+.btnmio a{color: orange; text-decoration: none;
+  background-color: #451e89;padding: 5px 10.5px; 
+  font-style: italic;
+   }
+ 
+@media screen and (max-width: 819px) {
+  
+  .wrapper .item{
+      min-width: 150px;height: 150px;
+     margin-right:5px;
+     }
+
+  .lado1a { font-size: 2.3rem;}
+  .lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
+  color:whitesmoke; font-style: italic;}
+  
+.neon {font-size:1.6rem;}
+ 
+.desc1{ font-size: 1rem;line-height: 1rem; }
+.desc3{
+  font-size: 0.6rem;font-style: italic; padding: 0  10px;
+}
+.btnmio {width: 120px;}
+
+.wrapdestacado{justify-content: space-between;}
+.wrappromos{
+  margin-bottom: 20px;
+   
+  }
+  }
+
+
+
