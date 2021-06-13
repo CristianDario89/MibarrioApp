@@ -197,6 +197,16 @@ animation-delay: 10s;
 .wrapdestacado{justify-content: space-between;}
 .wrappromos{margin-bottom: 20px;}
 
+/*-------------*/
+
+.sentence{
+   
+  font-size: 15px;line-height: 17px; 
+  padding: 5px 0px 11px 6px;
+  margin-bottom:20px;
+
+  background-color: #430C05;
+}
 }
 
 
