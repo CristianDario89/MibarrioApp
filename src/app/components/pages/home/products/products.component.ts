@@ -7,37 +7,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
   imageObject: Array<object> = [{
-    image: 'assets/img/productsAll/3.png',
-    thumbImage: 'assets/img/productsAll/3.png',
-    alt: 'alt of image',
-    title: 'Almacén'
+    image: 'assets/img/productsAll/3.jpg',
+    thumbImage: 'assets/img/productsAll/3.jpg',
+    alt: 'Mascotas',
+    title: 'Mascotas'
 }, {
     image: 'assets/img/productsAll/2.jpg', // Support base64 image
     thumbImage: 'assets/img/productsAll/2.jpg', // Support base64 image
-    title: 'Galletitas', //Optional: You can use this key if want to show image with title
-    alt: 'Galletitas' //Optional: You can use this key if want to show image with alt
+    title: 'Polleria', //Optional: You can use this key if want to show image with title
+    alt: 'Polleria' //Optional: You can use this key if want to show image with alt
 },
 {
   image: 'assets/img/productsAll/1.jpg',
   thumbImage: 'assets/img/productsAll/1.jpg',
   alt: 'alt of image',
-  title: 'Golosinas'
+  title: 'Kiosko'
 }, {
   image: 'assets/img/productsAll/4.jpg', // Support base64 image
   thumbImage: 'assets/img/productsAll/4.jpg', // Support base64 image
-  title: 'Bebidas', //Optional: You can use this key if want to show image with title
-  alt: 'Bebidas' //Optional: You can use this key if want to show image with alt
+  title: 'Remiseria', //Optional: You can use this key if want to show image with title
+  alt: 'Remiseria' //Optional: You can use this key if want to show image with alt
 },
 {
-  image: 'assets/img/productsAll/5.jpeg',
-  thumbImage: 'assets/img/productsAll/5.jpeg',
-  alt: 'alt of image',
-  title: 'Limpieza'
+  image: 'assets/img/productsAll/5.jpg',
+  thumbImage: 'assets/img/productsAll/5.jpg',
+  alt: 'Muebleria',
+  title: 'Muebleria'
 }, {
-  image: 'assets/img/productsAll/6.png', // Support base64 image
-  thumbImage: 'assets/img/productsAll/6.png', // Support base64 image
-  title: 'Helados', //Optional: You can use this key if want to show image with title
-  alt: 'Helados' //Optional: You can use this key if want to show image with alt
+  image: 'assets/img/productsAll/6.jpg', // Support base64 image
+  thumbImage: 'assets/img/productsAll/6.jpg', // Support base64 image
+  title: 'Ropa', //Optional: You can use this key if want to show image with title
+  alt: 'Ropa' //Optional: You can use this key if want to show image with alt
 }
 ];
 

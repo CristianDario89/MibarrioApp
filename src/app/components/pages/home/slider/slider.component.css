@@ -3,7 +3,7 @@
 
 .carousel-caption h3{
     font-family: 'Potta One', cursive;color:  red;
-    font-size: 50px;text-shadow: 1px 1px 1px #451e89;
+    font-size: 50px;text-shadow: 1px 1px 1px #430C05;
 }
 .carousel-caption p span { 
     color: white; 
@@ -22,7 +22,7 @@
     }
 .carousel-caption h3{ font-size: 24px; } 
 
-ngb-carousel{border:7px solid #451e89;}
+ngb-carousel{border:7px solid #430C05;}
 
 .carousel-caption p span { 
    
