@@ -8,7 +8,7 @@
 
     <!-------------primer----*ngIf="post.contentPost == 'alcohol'"------------>
     <!--------------primer---------------->
-    <div class="wrapdestacado"> <div class="neon">KIOSKOS</div> </div>
+    <div class="wrapdestacado"> <div class="neon">KIOSKO</div> </div>
         
     <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
         
@@ -25,9 +25,16 @@
             </div>
         
     </div> 
-<!---- <div class="wrapbtn"> <div class="btnmio"><a [routerLink]="['/vermas']">Ver todos</a> </div></div>
--------->
-   
+ 
+    <h2 class="sentence">Ventajas de tu tienda online:
+        <div class="slidingVertical">
+          <span>Abierto al público las 24h.</span>
+          <span>Te hará aumentar los clientes.</span>
+          <span>Reduce gastos.</span>
+          <span>Aumenta visibilidad de tu negocio.</span>
+          <span>Comunidad.</span>
+        </div>
+      </h2>
     <!--------------Fin primer---------------->
     <!--------------Fin primer---------------->
 
@@ -35,7 +42,7 @@
         
     <!-------------SEGUNDO---------------->
     <!--------------SEGUNDO---------------->      
-    <div class="wrapdestacado mt-3"><div class="neon">ALMACENES</div></div>
+    <div class="wrapdestacado mt-3"><div class="neon">ALMACEN</div></div>
 
     <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
         
@@ -52,6 +59,16 @@
             </div>
         
     </div> 
+    <h2 class="sentence">Construir productos que funcionen y generen resultados requieren conocimientos de
+        <div class="slidingVertical">
+          <span>negocio.</span>
+          <span>comunicación.</span>
+          <span>tecnología.</span>
+          <span>analisis de datos.</span>
+          <span>diseño.</span>
+        </div>
+    </h2>
+   
     <!------------FIN-SEGUNDO---------------->
         
 
