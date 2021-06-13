@@ -39,8 +39,8 @@ font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 300px;
-  left: -520px;
+  bottom:200px;
+  left: -400px;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
