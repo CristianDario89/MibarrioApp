@@ -16,7 +16,9 @@ font-family: 'Roboto', sans-serif;
     font-size: 55px;
     color: red;
     font-family: 'Potta One', cursive;
-    text-shadow : 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+    text-shadow : 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+     0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95,
+      0 0 50px #ff2d95, 0 0 75px #ff2d95;
  }
 .lineatercera{
     color: whitesmoke;
@@ -38,8 +40,8 @@ font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
   right: 0;
-  bottom:200px;
-  left: -400px;
+  bottom:130px;
+  left: -360px;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
@@ -150,11 +152,10 @@ font-family: 'Roboto', sans-serif;
 
 .layer:nth-child(n+10):after {
   -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
-}
-#93441A #430C05
+} 
 .layer:nth-child(n+11):after {
-  -webkit-text-stroke: 15px #CA7C5C;
-  text-shadow: 6px 0 6px #93441A, 5px 5px 5px #CA7C5C, 0 6px 6px #93441A;
+  -webkit-text-stroke: 15px red;
+  text-shadow: 6px 0 6px #93441A, 5px 5px 5px #430C05, 0 6px 6px #93441A;
 }
 
 .layer:nth-child(n+12):after {
