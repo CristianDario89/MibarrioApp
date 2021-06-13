@@ -28,7 +28,7 @@
 
   .item img{width: 150px; height: 100%;}
 
-
+.precio a{color:black;font-family: 'Indie Flower', cursive;}
   /*-----Destacados-----*/
   .wrapdestacado{display: flex;justify-content: space-around;
   
@@ -111,11 +111,8 @@ padding:10px 2px 0px 2px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   padding: 11px 0px 11px 6px;
-  margin-bottom:20px;
-
-  background-color: #430C05;
-}
- 
+  margin-bottom:20px; 
+} 
 
 /*Vertical Sliding*/
 .slidingVertical{
@@ -126,7 +123,7 @@ text-indent: 8px;
 animation: topToBottom 12.5s linear infinite 0s;
 -ms-animation: topToBottom 12.5s linear infinite 0s;
 -webkit-animation: topToBottom 12.5s linear infinite 0s;
-color: #00abe9;
+color: #430C05;font-weight: 600;text-shadow: 1px 1px 1px orange;
 opacity: 0;
 overflow: hidden;
 position: absolute;
@@ -194,7 +191,7 @@ animation-delay: 10s;
 
 .btnmio {width: 120px;}
 
-.wrapdestacado{justify-content: space-between;}
+.wrapdestacado{display: block; text-align:center;}
 .wrappromos{margin-bottom: 20px;}
 
 /*-------------*/
@@ -202,10 +199,12 @@ animation-delay: 10s;
 .sentence{
    
   font-size: 15px;line-height: 17px; 
-  padding: 5px 0px 11px 6px;
+  padding: 5px 0px 5px 6px;
   margin-bottom:20px;
-
-  background-color: #430C05;
+  color:black;
+  background-color: #ddd;
+  border-right: 4px solid #430C05;border-left: 4px solid #430C05;
+  border-bottom: 4px solid #430C05;
 }
 }
 

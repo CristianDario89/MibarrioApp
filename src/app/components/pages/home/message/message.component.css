@@ -8,12 +8,12 @@ font-family: 'Roboto', sans-serif;
 }
 .lineaprimera{
     color:white; 
-    font-size: 34px;
+    font-size: 26px;
     padding-bottom: 15px;font-weight: 500;
     font-family: 'Indie Flower', cursive;
 }
 .lineasegunda{
-    font-size: 55px;
+    font-size: 45px;
     color: red;
     font-family: 'Potta One', cursive;
     text-shadow : 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
@@ -23,7 +23,7 @@ font-family: 'Roboto', sans-serif;
 .lineatercera{
     color: whitesmoke;
     padding-top: 18px;padding-bottom: 6px;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 22px;
 
@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
   right: 0;
-  bottom:130px;
+  bottom:90px;
   left: -360px;
   perspective: 9999px;
   transform-style: preserve-3d;
