@@ -2,7 +2,7 @@ ng-image-slider{font-weight: 600;font-size: 24px; }
  
 .wrapperproductos{
 	margin:0 30px 20px 30px;
-	border-bottom: 8px solid #430C05;
+	border-bottom: 8px solid orangered;
 	 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -12,7 +12,7 @@ ng-image-slider{font-weight: 600;font-size: 24px; }
 	 
    text-align: center; 
    color: whitesmoke;font-weight: 600;
-    background-color:#430C05;
+    background-color:orangered;
    font-family: 'Indie Flower';
 
    padding: 12px 0px 6px 0px;
@@ -22,8 +22,8 @@ ng-image-slider{font-weight: 600;font-size: 24px; }
 }
 .tiritas{
 	height:24px;
-	border-right: 8px solid #430C05;
-	border-left: 8px solid #430C05;
+	border-right: 8px solid orangered;
+	border-left: 8px solid orangered;
 }
   
 @keyframes gradient {
