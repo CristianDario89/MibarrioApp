@@ -22,12 +22,12 @@
         
             
     }
-    .carousel-caption h3{ font-size: 36px;line-height: 40px; } 
+    .carousel-caption h3{ font-size: 32px;line-height: 40px; } 
 
     ngb-carousel{border-right:7px solid #430C05;border-left:7px solid #430C05;}
 
     .carousel-caption p span { 
-        font: bold 17px/27px 'Indie Flower', cursive; 
+        font: bold 15px/27px 'Indie Flower', cursive; 
         padding: 4px 8px; 
         position: relative; 
     } 
